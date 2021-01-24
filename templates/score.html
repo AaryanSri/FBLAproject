@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- generates correct answer report -->
+<div class="answerreport">
+  <p> Congratulations! Your Score is: <br>
+    {{score}}
+  </p>
+<hr class="line">
+</div>
+
+<div class="questions">
+<ol>
+{% for question, answer in solutions %}
+  <li>{{question['q']}}</li>
+  <p>Your answer: {{answer}}</p>
+  <p>Correct answer: {{question['a']}}</p>
+{% endfor %}
+</ol>
+</div>
+
+<form action="/">
+  <input type='submit' class="submit-button" value="Retake">
+</form>
+
+
+
+{% endblock %}
