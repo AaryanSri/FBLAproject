@@ -48,7 +48,3 @@ into google chrome or whichever browser you would like to use. And voila! My cod
 
 If you want to look at my original code, then simply navigate to the files which I specified
 above, and you are free to naviagte through my project! Enjoy!
-
-* hello world
-* my name is Aaryan.
-* my name is not Aaryan.
